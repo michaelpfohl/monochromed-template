@@ -60,6 +60,58 @@ nav {
 }
 /* NAVBAR */
 
+/* MAIN */
+main {
+    background: repeating-linear-gradient(
+        45deg,
+        #ededed,
+        #bfbfbf 3px,
+        #ededed 3px,
+        #bfbfbf 6px
+      );
+}
+
+.main--top-content {
+    width: 60%;
+    margin: 0 15%;
+}
+
+.main--top-header {
+    font-size: 40px;
+    margin: 0 0 20px 0;
+    padding-top: 50px;
+}
+
+.main--top-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main--top-card {
+    margin-right: 95px;
+}
+
+.main--top-image {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.main--top-button {
+    background: #000;
+    border-radius: 5px;
+    margin: 29px 0px;
+    padding: 12px 22px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    box-shadow: none;
+}
+
+.main--top-button:hover {
+    background: #383838;
+}
+/* MAIN */
+
 /* FOOTER */
 footer {
     background: #000;
