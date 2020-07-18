@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: "Oxygen", sans-serif;
+}
+
+/* NAVBAR */
+nav {
+    background-image: url(https://images.unsplash.com/photo-1496629062893-b0f566065d44?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80);
+    height: 500px;
+    margin: 0;
+}
+
+.navbar--header, .navbar--subheader {
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.navbar--header {
+    padding-top: 6%;
+}
+
+.navbar--header a {
+    text-decoration: none;
+    color: #000;
+    font-size: 59px;
+}
+
+.navbar--subheader {
+    font-size: 15;
+    color: gray;
+    font-weight: lighter;
+}
+
+.navbar--container {
+    display: flex;
+    list-style-type: none;
+    background: #000;
+    border-radius: 50px;
+    justify-content: space-evenly;
+    padding: 0px 44px;
+    width: 46%;
+    height: 15%;
+    margin-left: 27%;
+    margin-top: 5%;
+}
+
+.navbar--container li {
+    margin: auto;
+}
+
+.navbar--container li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+}
+
+.navbar--container li a:hover {
+    color: white;
+}
+/* NAVBAR */
+
