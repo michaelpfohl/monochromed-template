@@ -60,3 +60,24 @@ nav {
 }
 /* NAVBAR */
 
+/* FOOTER */
+footer {
+    background: #000;
+    color: rgb(255, 255, 255, 0.2);
+    height: 120px;
+    text-align: center;
+    margin: auto;
+}
+
+.footer--content {
+    padding-top: 45px;
+}
+
+.footer--link {
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.3);
+}
+
+
+
+/* FOOTER */
